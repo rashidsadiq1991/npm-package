@@ -80,11 +80,31 @@ export function isValidEmail(email: string): boolean {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
-
+/**
+ * A utility function that checks if two numbers are equal
+ * @param a - First number
+ * @param b - Second number
+ * @returns True if the numbers are equal, false otherwise
+ *
+ * @example
+ * ```typescript
+ * import { isEqual } from '@rashid/npm-package';
+ *
+ * console.log(isEqual(2, 2)); // true
+ * console.log(isEqual(2, 3)); // false
+ * ```
+ */
+export function isEqual(a: number, b: number): boolean {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('Both arguments must be numbers');
+  }
+  return a === b;
+}
 // Export all functions as default export as well
 export default {
   greet,
   add,
   capitalize,
   isValidEmail,
+  isEqual,
 };
