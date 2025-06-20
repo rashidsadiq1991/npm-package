@@ -1,4 +1,4 @@
-# @rashid/npm-package
+# @rashidsadiq1991/npm-package
 
 A modern, TypeScript-based npm package template with comprehensive tooling and best practices.
 
@@ -16,7 +16,7 @@ A modern, TypeScript-based npm package template with comprehensive tooling and b
 ## Installation
 
 ```bash
-npm install @rashid/npm-package
+npm install @rashidsadiq1991/npm-package
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install @rashid/npm-package
 ### ES Modules
 
 ```typescript
-import { greet, add, capitalize, isValidEmail } from '@rashid/npm-package';
+import { greet, add, capitalize, isValidEmail } from '@rashidsadiq1991/npm-package';
 
 // Greet someone
 console.log(greet('World')); // "Hello, World!"
@@ -42,7 +42,7 @@ console.log(isValidEmail('test@example.com')); // true
 ### CommonJS
 
 ```javascript
-const { greet, add, capitalize, isValidEmail } = require('@rashid/npm-package');
+const { greet, add, capitalize, isValidEmail } = require('@rashidsadiq1991/npm-package');
 
 console.log(greet('Node.js')); // "Hello, Node.js!"
 ```
@@ -50,7 +50,7 @@ console.log(greet('Node.js')); // "Hello, Node.js!"
 ### Default Import
 
 ```typescript
-import utils from '@rashid/npm-package';
+import utils from '@rashidsadiq1991/npm-package';
 
 console.log(utils.greet('TypeScript')); // "Hello, TypeScript!"
 ```

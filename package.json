@@ -1,5 +1,5 @@
 {
-  "name": "@rashid/npm-package",
+  "name": "@rashidsadiq1991/npm-package",
   "version": "1.0.0",
   "description": "A modern npm package template with TypeScript support",
   "main": "dist/index.js",
@@ -33,12 +33,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rashid/npm-package.git"
+    "url": "git+https://github.com/rashidsadiq1991/npm-package.git"
   },
   "bugs": {
-    "url": "https://github.com/rashid/npm-package/issues"
+    "url": "https://github.com/rashidsadiq1991/npm-package/issues"
   },
-  "homepage": "https://github.com/rashid/npm-package#readme",
+  "homepage": "https://github.com/rashidsadiq1991/npm-package#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",

@@ -12,8 +12,8 @@
 ### 2. Connect Local Repository to GitHub
 
 ```bash
-# Add GitHub remote (replace 'username' with your GitHub username)
-git remote add origin https://github.com/username/npm-package.git
+# Add GitHub remote (replace with your actual repository)
+git remote add origin https://github.com/rashidsadiq1991/npm-package.git
 
 # Push to GitHub
 git push -u origin main
@@ -51,14 +51,14 @@ Before publishing, update these fields in `package.json`:
 
 ```json
 {
-  "name": "@your-username/your-package-name",
+  "name": "@rashidsadiq1991/your-package-name",
   "repository": {
-    "url": "git+https://github.com/your-username/your-package-name.git"
+    "url": "git+https://github.com/rashidsadiq1991/your-package-name.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/your-package-name/issues"
+    "url": "https://github.com/rashidsadiq1991/your-package-name/issues"
   },
-  "homepage": "https://github.com/your-username/your-package-name#readme"
+  "homepage": "https://github.com/rashidsadiq1991/your-package-name#readme"
 }
 ```
 
